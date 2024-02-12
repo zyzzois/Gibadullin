@@ -1,0 +1,12 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popular_movies_fragment_title">Популярные</string>
+    <string name="favorite_movies_fragment_title">Избранные</string>
+    <string name="movie_poster_image_content_description">movie poster image</string>
+    <string name="empty_favorites_list">Кажется ты еще не добавил сюда фильмы</string>
+    <string name="movie_name_sample_text">Изгой-один: Звездные...</string>
+    <string name="favorite_movie_button_content_description">favorite movie button</string>
+    <string name="search_hint">помогу найти фильм</string>
+    <string name="movie_genre_sample_text">"%1\$s (%2\$s)"</string>
+    <string name="network_warning">"Упс, кажется нет интернета"</string>
+</resources>

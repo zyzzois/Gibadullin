@@ -1,0 +1,15 @@
+<resources>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popular_movies_fragment_title">Популярные</string>
+    <string name="favorite_movies_fragment_title">Избранные</string>
+    <string name="movie_poster_image_content_description">movie poster image</string>
+    <string name="movie_genre_sample_text">Фантастика (2018)</string>
+    <string name="movie_name_sample_text">Изгой-один: Звездные...</string>
+    <string name="favorite_movie_button_content_description">favorite movie button</string>
+    <string name="movie_description_sample">Сопротивление собирает отряд для выполнения особой миссии - надо выкрасть чертежи самого совершенного и мертоносного оружия Империи. Не всем суждено вернуться домой, но герои готовы к этому, ведь на кону судьба Галактики</string>
+    <string name="movie_detail_title_sample">Изгой-один: Звездные войны</string>
+    <string name="genre_sample">Cтраны:</string>
+    <string name="country_sample">США</string>
+    <string name="genre_description_sample">фантастика, приключения</string>
+    <string name="genre_title_sample">Жанры:</string>
+</resources>

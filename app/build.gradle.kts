@@ -2,6 +2,9 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.kotlinAndroid)
+    alias(libs.plugins.ksp)
+    id("kotlin-parcelize")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
@@ -37,6 +40,11 @@ android {
 }
 
 dependencies {
+    implementation(project(":popular"))
+    implementation(project(":core-data"))
+    implementation(project(":core-ui"))
+    implementation(project(":movie-detail"))
+    implementation(project(":favorites"))
 
     implementation(libs.core.ktx)
     implementation(libs.appcompat)
@@ -45,4 +53,19 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.test.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.gson)
+    implementation(libs.converter.gson)
+    implementation(libs.logging.interceptor)
+
+    // Dagger 2
+    implementation(libs.dagger)
+    ksp(libs.dagger.compiler)
+    ksp(libs.dagger.other)
+
+    // Jetpack Navigation
+    implementation(libs.navigation.fragment)
+    implementation(libs.navigation.ui)
 }

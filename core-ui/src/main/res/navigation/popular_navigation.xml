@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popular_navigation"
+    app:startDestination="@id/popularFragment">
+
+    <fragment
+        android:id="@+id/popularFragment"
+        android:name="com.example.popular.ui.PopularMoviesFragment"
+        android:label="PopularMoviesFragment">
+        <deepLink app:uri="movies://popular" />
+    </fragment>
+
+</navigation>
